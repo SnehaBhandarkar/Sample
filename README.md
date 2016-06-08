@@ -1,2 +1,2 @@
 # onlinestore
-This is a online store which deals with Home Decor
+Alankaar is a online store which deals with Home Decor
