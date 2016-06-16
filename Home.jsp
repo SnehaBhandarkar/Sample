@@ -110,11 +110,20 @@ height: 680px;
 				            <ul class="multi-column-dropdown">
 					            <li><b>Home Accents</b></li>					      
 					            <li class="divider"></li>
-					            <li><a href="Finials.jsp" target="_blank">Finials</a></li>
+					            <li><a href="Finial.jsp" target="_blank">Finial</a></li>
 					            <li><a href="CandleHolder.jsp" target="_blank">Candle Holder</a></li>
-					            <li><a href="#">Vases</a></li>
-					            <li><a href="#">Trays</a></li>
+					            <li><a href="Vase.jsp" target="_blank">Vases</a></li>
+					            <li><a href="Trays.jsp" target="_blank">Trays</a></li>
 				            </ul>
+				           <!--  <li class="divider"></li>
+				            <ul class="multi-column-dropdown">
+					            <li><b>Textiles</b></li>					           
+					            <li class="divider"></li>					  					            
+					            <li><a href="#">Bed Covers</a></li>
+					            <li><a href="#">Cushion Covers</a></li>
+					            <li><a href="#">Carpets</a></li>
+					            <li><a href="#">Towels</a></li>
+				            </ul> -->
 			            </div>
 			            <div class="col-sm-4">
 				            <ul class="multi-column-dropdown">
@@ -135,7 +144,7 @@ height: 680px;
 					            <li><a href="#">Table Linens</a></li>
 					            <li><a href="#">Serveware</a></li>
 				            </ul>
-				            <li class="divider"></li>
+				            <!-- <li class="divider"></li>
 				            <ul class="multi-column-dropdown">
 					            <li><b>Textiles</b></li>					           
 					            <li class="divider"></li>					  					            
@@ -143,7 +152,7 @@ height: 680px;
 					            <li><a href="#">Cushion Covers</a></li>
 					            <li><a href="#">Carpets</a></li>
 					            <li><a href="#">Towels</a></li>
-				            </ul>
+				            </ul> -->
 			            </div>
 		            </div>
 	            </ul>
@@ -182,21 +191,22 @@ height: 680px;
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="Images\painting1.jpg" alt="Pink" width="800" height="100" >
+        <img src="Images\painting1.jpg" alt="Maple" width="800" height="100" >
         <div class="carousel-caption">
           <h3>Maple</h3>
-          <p>The wonderful orange and red maple leaf art</p>
+          <p>The wonderful orange and red maple leaf art by the river bank</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="Images\carpet2.jpg" alt="Tulips" width="800" height="100">
+        <img src="Images\carpet2.jpg" alt="Creamy" width="800" height="100">
         <div class="carousel-caption">
           <h3>Creamy</h3>
           <p>Elegant carpet with etching in your living room</p>
@@ -204,18 +214,26 @@ height: 680px;
       </div>
     
       <div class="item">
-        <img src="Images\vase2.jpg" alt="Yellow" width="800" height="100">
+        <img src="Images\vase2.jpg" alt="Cane Vase" width="800" height="100">
         <div class="carousel-caption">
-          <h3>Set of Vase</h3>
+          <h3>Cane Vase</h3>
           <p>Insert some immitations and voila!</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="Images\jars1.jpeg" alt="Purple" width="800" height="100">
+        <img src="Images\jars1.jpeg" alt="Decorative Jars" width="800" height="100">
         <div class="carousel-caption">
           <h3>Decorative Jars</h3>
           <p>Adorns your Tipois</p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="Images\can1.jpg" alt="Candle Holder" width="800" height="100">
+        <div class="carousel-caption">
+          <h3>Candle Holders</h3>
+          <p>Lightens up your walls and tables</p>
         </div>
       </div>
   

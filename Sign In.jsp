@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -47,6 +49,12 @@
           <label><input type="checkbox"><font color="white"> Remember me</font></label>
         </div>
       </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+   <a href="forpwd.jsp"><font color="white"><b>Forgot Password?</b></font></a><br><br>
+   <font color="white"><b>New to Alankaar?</b></font> <a href="Sign Up.jsp"><font color="white">Create an account</font></a>
+    </div>
     </div>
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">

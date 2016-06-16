@@ -3,6 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Trays</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
@@ -38,7 +40,6 @@ img.opacity:hover {
 	filter: alpha(opacity=100);
 	}
 </style>
-<title>Candle Holders</title>
 </head>
 <body background="Images\backg2.jpg" style="background-repeat:no-repeat;background-size:cover;">
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -48,26 +49,26 @@ img.opacity:hover {
 </div>
 <div class="container">
 <br><br><br><br><br><br><br><br><br><br>
-<b><center><font face="Cooper"><h1>Candle Holders</h1></font></center></b>
+<b><center><font face="Cooper"><h1>Trays</h1></font></center></b>
 <br><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\candlehol1.jpg" width=300 height=120 class="opacity" >
+<img src="Images\tray1.jpg" width=300 height=120 class="opacity" >
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\candlehol2.jpg" width=300 height=120 class="opacity">
+<img src="Images\tray2.jpg" width=300 height=120 class="opacity">
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-hand-left"> Details</span></button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\candlehol3.jpg" width=300 height=120 class="opacity">
+<img src="Images\tray3.jpg" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\candlehol4.jpg" width=300 height=120 class="opacity">
+<img src="Images\tray4.jpg" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-hand-left"> Details</span></button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\candlehol5.jpg" width=300 height=120 class="opacity">
+<img src="Images\tray5.jpg" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\candlehol6.jpg" width=300 height=120 class="opacity">
+<img src="Images\tray6.jpg" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 
 
@@ -81,12 +82,12 @@ img.opacity:hover {
         <div class="modal-header">          
           
   			<button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Softwood Candle Holder</h4>
+          <h4 class="modal-title">Metal 3-layered tray</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\candlehol1.jpg" width=300 height=220></center>
-          <p>Description: This includes a set o softwood candle holder covered with metal</p>
-          <p>Price: &#8377; 750
+        <center><img src="Images\tray1.jpg" width=300 height=220></center>
+          <p>Description: This three layered metal tray comes with wired mesh delicately made</p>
+          <p>Price: &#8377; 2550
         </div>
         <div class="modal-footer">
         <a class="btn btn-default" href="Cart.jsp" target="_blank">Add to Cart</a>
@@ -110,12 +111,12 @@ img.opacity:hover {
         <div class="modal-header">          
           
   			<button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Silver Candle Holder</h4>
+          <h4 class="modal-title">Blue Seaa</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\candlehol2.jpg" width=300 height=220></center>
-          <p>Description: Made of white metal and silver this is perfect for your living room</p>
-          <p>Price: &#8377; 4550
+        <center><img src="Images\tray2.jpg" width=300 height=220></center>
+          <p>Description: Blue and white are a must-have or yur beautiful tea-set</p>
+          <p>Price: &#8377; 1850
         </div>
         <div class="modal-footer">
         <a class="btn btn-default" href="Cart.jsp" target="_blank">Add to Cart</a>
@@ -139,12 +140,12 @@ img.opacity:hover {
         <div class="modal-header">          
           
   			<button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Black!</h4>
+          <h4 class="modal-title">Golden Beauty!</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\candlehol3.jpg" width=300 height=220></center>
-          <p>Description: Polished with a mix of black and wooden paint, this is apt for your garden</p>
-          <p>Price: &#8377; 550
+        <center><img src="Images\tray3.jpg" width=300 height=220></center>
+          <p>Description: Golden tray desgned   cramer  version of persian art</p>
+          <p>Price: &#8377; 3500
         </div>
         <div class="modal-footer">
         <a class="btn btn-default" href="Cart.jsp" target="_blank">Add to Cart</a>
@@ -168,12 +169,12 @@ img.opacity:hover {
         <div class="modal-header">          
           
   			<button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Rainbow</h4>
+          <h4 class="modal-title">Glassy Gold</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\candlehol4.jpg" width=300 height=220></center>
-          <p>Description: 3 colourful set of ceramic candle holders with neatly made hole for beautiful pattern </p>
-          <p>Price: &#8377; 1945
+        <center><img src="Images\tray4.jpg" width=300 height=220></center>
+          <p>Description: Glossy golden tray with a glassfinish suitable for smaller vases  </p>
+          <p>Price: &#8377; 4945
         </div>
         <div class="modal-footer">
         <a class="btn btn-default" href="Cart.jsp" target="_blank">Add to Cart</a>
@@ -196,12 +197,12 @@ img.opacity:hover {
         <div class="modal-header">          
           
   			<button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Traditional</h4>
+          <h4 class="modal-title">Peacock</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\candlehol5.jpg" width=300 height=220></center>
-          <p>Description: Being traditional is an advantage for this candleholder </p>
-          <p>Price: &#8377; 899
+        <center><img src="Images\tray5.jpg" width=300 height=220></center>
+          <p>Description: This beautiful tray will be the show-stopper of your living room </p>
+          <p>Price: &#8377; 8999
         </div>
         <div class="modal-footer">
         <a class="btn btn-default" href="Cart.jsp" target="_blank">Add to Cart</a>
@@ -223,12 +224,12 @@ img.opacity:hover {
         <div class="modal-header">          
           
   			<button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Creeper</h4>
+          <h4 class="modal-title">Tiled</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\candlehol6.jpg" width=300 height=220></center>
-          <p>Description: Metallic creeper has never been so awesome with lovely leaves </p>
-          <p>Price: &#8377; 1945
+        <center><img src="Images\tray6.jpg" width=300 height=220></center>
+          <p>Description: With birds pirching on the branch, this tiled tray gives a mosiac feel </p>
+          <p>Price: &#8377; 1645
         </div>
         <div class="modal-footer">
         <a class="btn btn-default" href="Cart.jsp" target="_blank">Add to Cart</a>
