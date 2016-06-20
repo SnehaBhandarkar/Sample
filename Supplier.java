@@ -1,12 +1,14 @@
 package com.niit.bean;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Component;
 
-@Repository
-public class Category {
+@Component
+public class Supplier {
+	
+
 	private String id;
 	private String name;
-	private String description;
+	private String address;
 	public String getId() {
 		return id;
 	}
@@ -19,10 +21,14 @@ public class Category {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDescription() {
-		return description;
+	public String getAddress() {
+		return address;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setAddress(String address) {
+		this.address = address;
 	}
+	
+
+
+
 }
