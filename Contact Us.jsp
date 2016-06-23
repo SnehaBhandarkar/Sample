@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Us</title>
-  <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+  <link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 <style>
 .navbar-default {
   background-color:white;
@@ -19,7 +20,7 @@
  }
 </style>
 </head>
-<body background="Images\backg4.jpg">
+<body background="<c:url value="resources\Images\backg4.jpg"/>">
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <iframe src="Logo.jsp" frameborder="0" scrolling="no"></iframe>
 <iframe src="Search.jsp"frameborder="0" width="48%" scrolling="no"></iframe>
@@ -64,12 +65,12 @@
   </form>
 </div>
 <center><h2><font color="white">Connect with / Follow us on</font></h2></center>
-<center><a href="https://www.facebook.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="E:\Alankaar\Images\Products\fb.jpg" width=50 height=50>
-<a href="https://twitter.com/?lang=en" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="E:\Alankaar\Images\Products\twitter.png" width=50 height=50>
-<a href="https://www.pinterest.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="E:\Alankaar\Images\Products\pin.png" width=50 height=50>
-<a href="https://www.youtube.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="E:\Alankaar\Images\Products\youtube.png" width=50 height=50>
-<a href="https://www.linkedin.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="E:\Alankaar\Images\Products\linkedin.png" width=50 height=50>
-<a href="https://www.instagram.com/?hl=en" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="E:\Alankaar\Images\Products\insta.png" width=50 height=50>
+<center><a href="https://www.facebook.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="<c:url value="resources\Images\fb.jpg"/>" width=50 height=50>
+<a href="https://twitter.com/?lang=en" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="<c:url value="resources\Images\twitter.png"/>" width=50 height=50>
+<a href="https://www.pinterest.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="<c:url value="resources\Images\pin.png"/>" width=50 height=50>
+<a href="https://www.youtube.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="<c:url value="resources\Images\youtube.png"/>" width=50 height=50>
+<a href="https://www.linkedin.com/" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="<c:url value="resources\Images\linkedin.png"/>" width=50 height=50>
+<a href="https://www.instagram.com/?hl=en" target="_blank" >&nbsp;&nbsp;&nbsp;&nbsp;<img src="<c:url value="resources\Images\insta.png"/>" width=50 height=50>
 </center>
 </body>
 </html>

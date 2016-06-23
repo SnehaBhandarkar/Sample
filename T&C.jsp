@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Terms, Conditions and Privacy Policy</title>
-  <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+  <link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 <style>
 .navbar-default {
   background-color:white;
@@ -19,7 +20,7 @@
  }
 </style>
 </head>
-<body background="Images\back5.jpg">
+<body background="<c:url value="resources\Images\back5.jpg"/>">
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <iframe src="Logo.jsp" frameborder="0" scrolling="no"></iframe>
 <iframe src="Search.jsp"frameborder="0" width="48%" scrolling="no"></iframe>

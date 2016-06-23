@@ -1,16 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Vase</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+  <link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 <style>
 .navbar-default {
   background-color:white;
@@ -41,7 +42,7 @@ img.opacity:hover {
 	}
 </style>
 </head>
-<body background="Images\backg2.jpg" style="background-repeat:no-repeat;background-size:cover;">
+<body background="<c:url value="resources\Images\backg2.jpg"/>" style="background-repeat:no-repeat;background-size:cover;">
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <iframe src="Logo.jsp" frameborder="0" scrolling="no"></iframe>
 <iframe src="Search.jsp"frameborder="0" width="48%" scrolling="no"></iframe>
@@ -53,22 +54,22 @@ img.opacity:hover {
 <br><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\vase1.jpg" width=300 height=120 class="opacity" >
+<img src="<c:url value="resources\Images\vase1.jpg"/>" width=300 height=120 class="opacity" >
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\vase2.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\vase2.jpg"/>" width=300 height=120 class="opacity">
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-hand-left"> Details</span></button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\vase3.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\vase3.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\vase4.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\vase4.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-hand-left"> Details</span></button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\vase5.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\vase5.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\vase7.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\vase7.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 
 
@@ -85,7 +86,7 @@ img.opacity:hover {
           <h4 class="modal-title">Ceramic Bow Vase</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\vase1.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\vase1.jpg"/>" width=300 height=220></center>
           <p>Description: Beautiful ceramic vase with 3-D bow</p>
           <p>Price: &#8377; 550
         </div>
@@ -114,7 +115,7 @@ img.opacity:hover {
           <h4 class="modal-title">Cane Weave</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\vase2.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\vase2.jpg"/>" width=300 height=220></center>
           <p>Description: This vase imitates cane weaving perfect for roof gardens</p>
           <p>Price: &#8377; 850
         </div>
@@ -143,7 +144,7 @@ img.opacity:hover {
           <h4 class="modal-title">Greenery!</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\vase3.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\vase3.jpg"/>" width=300 height=220></center>
           <p>Description: Green vase shaped as flower-pot that will decorate your kitchen garden</p>
           <p>Price: &#8377; 350
         </div>
@@ -172,7 +173,7 @@ img.opacity:hover {
           <h4 class="modal-title">Glassy</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\vase4.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\vase4.jpg"/>" width=300 height=220></center>
           <p>Description: Glassy as ever, comes with a wooden patch to add that earthy look </p>
           <p>Price: &#8377; 1945
         </div>
@@ -200,7 +201,7 @@ img.opacity:hover {
           <h4 class="modal-title">Spiral</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\vase5.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\vase5.jpg"/>" width=300 height=220></center>
           <p>Description: Glass cylindrical vase with a spiral stand </p>
           <p>Price: &#8377; 899
         </div>
@@ -227,7 +228,7 @@ img.opacity:hover {
           <h4 class="modal-title">Porcelain</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\vase7.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\vase7.jpg"/>" width=300 height=220></center>
           <p>Description: This wonderful vase designed with minute details provides a classy look to your table </p>
           <p>Price: &#8377; 1945
         </div>

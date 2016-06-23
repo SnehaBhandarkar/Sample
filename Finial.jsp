@@ -1,16 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Finial</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+  <link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 <style>
 .navbar-default {
   background-color:white;
@@ -41,7 +42,7 @@ img.opacity:hover {
 	}
 </style>
 </head>
-<body background="Images\backg2.jpg" style="background-repeat:no-repeat;background-size:cover;">
+<body background="<c:url value="resources\Images\backg2.jpg"/>" style="background-repeat:no-repeat;background-size:cover;">
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <iframe src="Logo.jsp" frameborder="0" scrolling="no"></iframe>
 <iframe src="Search.jsp"frameborder="0" width="48%" scrolling="no"></iframe>
@@ -53,22 +54,22 @@ img.opacity:hover {
 <br><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\Finial1.jpg" width=300 height=120 class="opacity" >
+<img src="<c:url value="resources\Images\Finial1.jpg"/>" width=300 height=120 class="opacity" >
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\finials2.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\finials2.jpg"/>" width=300 height=120 class="opacity">
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-hand-left"> Details</span></button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\finials3.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\finials3.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\finials4.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\finials4.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4"><span class="glyphicon glyphicon-hand-left"> Details</span></button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\finials5.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\finials5.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\finials6.jpg" width=300 height=120 class="opacity">
+<img src="<c:url value="resources\Images\finials6.jpg"/>" width=300 height=120 class="opacity">
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6"><span class="glyphicon glyphicon-hand-left"> Details</span></button>
 
 
@@ -85,7 +86,7 @@ img.opacity:hover {
           <h4 class="modal-title">Ceramic Bow finials</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\Finial1.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\Finial1.jpg"/>" width=300 height=220></center>
           <p>Description: This is a beautiful wooden vase which comes in a set of 2</p>
           <p>Price: &#8377; 800
         </div>
@@ -114,7 +115,7 @@ img.opacity:hover {
           <h4 class="modal-title">Finial Wood Spheres</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\finials2.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\finials2.jpg"/>" width=300 height=220></center>
           <p>Description: These are a set of 4 wooden spheres with glass embellishment</p>
           <p>Price: &#8377; 1050
         </div>
@@ -143,7 +144,7 @@ img.opacity:hover {
           <h4 class="modal-title">Finial Antiques</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\finials3.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\finials3.jpg"/>" width=300 height=220></center>
           <p>Description: Presenting a set of 3 finials cum candle holders</p>
           <p>Price: &#8377; 2300
         </div>
@@ -172,7 +173,7 @@ img.opacity:hover {
           <h4 class="modal-title">Finial Blue Case</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\finials4.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\finials4.jpg"/>" width=300 height=220></center>
           <p>Description: Beautifully designed blue with candleholder finial </p>
           <p>Price: &#8377; 1500
         </div>
@@ -200,7 +201,7 @@ img.opacity:hover {
           <h4 class="modal-title">Finial Glass Spheres</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\finials5.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\finials5.jpg"/>" width=300 height=220></center>
           <p>Description: Glass cylindrical finials with a spiral stand </p>
           <p>Price: &#8377; 2250
         </div>
@@ -227,7 +228,7 @@ img.opacity:hover {
           <h4 class="modal-title">Finial Metal Parrot</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\finials6.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\finials6.jpg"/>" width=300 height=220></center>
           <p>Description: Wonderfully etched sitting parrot </p>
           <p>Price: &#8377; 5600
         </div>

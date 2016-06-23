@@ -6,10 +6,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Suppliers</title>
+<title>Supplier List</title>
 </head>
 <body>
-
 ${message}
 <h4>List of available Suppliers</h4>
 <form:form method="post" action="updateSuppliers" modelAttribute="supplier">
@@ -24,7 +23,7 @@ ${message}
 	<c:forEach items="${supplierList}" var="supplier" varStatus="status">
 		<tr>
 			<td align="center">${status.count}</td>
-			<td><input name="supplierList[${status.index}].id" readonly="readonly" value="${supplier.id}"/></td>
+			<td><input name="supplierList[${status.index}].id" value="${supplier.id}"/></td>
 			<td><input name="supplierList[${status.index}].name" value="${supplier.name}"/></td>
 			<td><input name="supplierList[${status.index}].address" value="${supplier.address}"/></td>
 			

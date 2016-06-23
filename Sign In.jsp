@@ -1,17 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sign In</title>
-  <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+  <link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 <style>
 .navbar-default {
   background-color:white;
@@ -21,7 +21,8 @@
  }
 </style>
 </head>
-<body background="Images\back2.jpg">
+<body background="<c:url value="resources\Images\back2.jpg"/>">
+${message}
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <iframe src="Logo.jsp" frameborder="0" scrolling="no"></iframe>
 <iframe src="Search.jsp"frameborder="0" width="48%" scrolling="no"></iframe>
@@ -30,17 +31,17 @@
 <div class="container">
 <br><br><br><br><br><br><br><br>
   <center><h2><font color="white">Sign In</font></h2></center>
-  <form class="form-horizontal" role="form" action="Loginservlet" method="post">
+  <form:form class="form-horizontal" role="form" action="validate" method="post">
     <div class="form-group">
-      <label class="control-label col-sm-2" for="email"><font color="white">Email:</font></label>
+      <label class="control-label col-sm-2" for="name"><font color="white">Username:</font></label>
       <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email ID" required>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your Username" required>
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="pwd"><font color="white">Password:</font></label>
+      <label class="control-label col-sm-2" for="password"><font color="white">Password:</font></label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Enter your password" required>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
       </div>
     </div>
     <div class="form-group">        
@@ -62,7 +63,7 @@
         <button type="reset" class="btn btn-default">Reset</button>
       </div>
     </div>
-  </form>
+  </form:form>
 </div>
 
 </body>

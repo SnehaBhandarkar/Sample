@@ -1,14 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+ <link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 <style>
 .navbar-default {
   background-color:white;
@@ -30,7 +31,7 @@
 
 <title>Deal of the day!</title>
 </head>
-<body background="Images\backg3.jpg" style="background-repeat:no-repeat;background-size:cover;">
+<body background="<c:url value="resources\Images\backg3.jpg"/>" style="background-repeat:no-repeat;background-size:cover;">
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 <iframe src="Logo.jsp" frameborder="0" scrolling="no"></iframe>
 <iframe src="Search.jsp"frameborder="0" width="48%" scrolling="no"></iframe>
@@ -42,16 +43,16 @@
 <br><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\dd1.jpg" width=300 height=120  >
+<img src="<c:url value="resources\Images\dd1.jpg"/>" width=300 height=120  >
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Details</button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\dd2.jpg" width=300 height=120 >
+<img src="<c:url value="resources\Images\dd2.jpg"/>" width=300 height=120 >
  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Details</button><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\dd3.jpg" width=300 height=120 >
+<img src="<c:url value="resources\Images\dd3.jpg"/>" width=300 height=120 >
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Details</button>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="Images\dd4.jpg" width=300 height=120 >
+<img src="<c:url value="resources\Images\dd4.jpg"/>" width=300 height=120 >
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">Details</button><br>
 
 
@@ -68,7 +69,7 @@
           <h4 class="modal-title">Dinner Set</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\dd1.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\dd1.jpg"/>" width=300 height=220></center>
           <p>Description: This includes a 15-piece dinner set</p>
           <p>Price:Was &#8377; <strike>2950</strike></p>
            <p>Price:Now &#8377; 2750</p>
@@ -98,7 +99,7 @@
           <h4 class="modal-title">Crockery - Jars</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\dd2.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\dd2.jpg"/>" width=300 height=220></center>
           <p>Description: Set of 3 spice jar in lovely colours with glaze</p>
           <p>Price:Was &#8377; <strike>600</strike></p>
            <p>Price:Now &#8377; 500</p>
@@ -128,7 +129,7 @@
           <h4 class="modal-title">Exclusive Mug</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\dd3.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\dd3.jpg"/>" width=300 height=220></center>
           <p>Description: Go green with this green and white mug</p>
           <p>Price:Was &#8377; <strike>250</strike></p>
            <p>Price:Now &#8377; 200</p>
@@ -158,7 +159,7 @@
           <h4 class="modal-title"> Custard Bowls</h4>
         </div>
         <div class="modal-body">
-        <center><img src="Images\dd4.jpg" width=300 height=220></center>
+        <center><img src="<c:url value="resources\Images\dd4.jpg"/>" width=300 height=220></center>
           <p>Description: With floral design to choose from, get this set of 4 dessert bowls </p>
            <p>Price:Was &#8377; <strike>1600</strike></p>
            <p>Price:Now &#8377; 1400</p>

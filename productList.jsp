@@ -6,26 +6,28 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Category List</title>
+<title>Product List</title>
 </head>
 <body>
 ${message}
-<h4>List of available categories</h4>
-<form:form method="post" action="updateCategories" modelAttribute="category">
+<h4>List of available products</h4>
+<form:form method="post" action="updateProducts" modelAttribute="product">
 <table width="50%">
 	<tr>
 	    <th>S.No</th>
 		<th>Id</th>
 		<th>Name</th>
+		<th>Category</th>
 		<th>Description</th>
 		
 	</tr>
-	<c:forEach items="${categoryList}" var="category" varStatus="status">
+	<c:forEach items="${productList}" var="product" varStatus="status">
 		<tr>
 			<td align="center">${status.count}</td>
-			<td><input name="categoryList[${status.index}].id" value="${category.id}"/></td>
-			<td><input name="categoryList[${status.index}].name" value="${category.name}"/></td>
-			<td><input name="categoryList[${status.index}].address" value="${category.description}"/></td>
+			<td><input name="productList[${status.index}].id" value="${product.id}"/></td>
+			<td><input name="productList[${status.index}].name" value="${product.name}"/></td>
+			<td><input name="productList[${status.index}].category" value="${product.category}"/></td>
+			<td><input name="productList[${status.index}].description" value="${product.description}"/></td>
 			
 		</tr>
 	</c:forEach>

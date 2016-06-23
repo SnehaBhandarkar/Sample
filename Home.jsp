@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -61,10 +62,12 @@ height:50%;
 </style>
 
 
-<link href="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\css\bootstrap.css" rel="stylesheet" />
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\jquery-2.2.4.js"></script>
-<script src="Bootstrap\bootstrap-3.3.6-dist\bootstrap-3.3.6-dist\js\bootstrap.js"></script>
+<link rel="stylesheet"
+    href="<c:url value="resources/css/bootstrap.min.css" />" />
+<script src="<c:url value="resources/js/jquery-2.2.4.js" />"></script>
+<script src="<c:url value="resources/js/bootstrap.min.js" />"></script>
 
+    
 <style>
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -198,7 +201,7 @@ height: 680px;
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="Images\painting1.jpg" alt="Maple" width="800" height="100" >
+        <img src="<c:url value="resources\Images\painting1.jpg"/>" alt="Maple" width="800" height="100" >
         <div class="carousel-caption">
           <h3>Maple</h3>
           <p>The wonderful orange and red maple leaf art by the river bank</p>
@@ -206,7 +209,7 @@ height: 680px;
       </div>
 
       <div class="item">
-        <img src="Images\carpet2.jpg" alt="Creamy" width="800" height="100">
+        <img src="<c:url value="resources\Images\carpet2.jpg"/>" alt="Creamy" width="800" height="100">
         <div class="carousel-caption">
           <h3>Creamy</h3>
           <p>Elegant carpet with etching in your living room</p>
@@ -214,7 +217,7 @@ height: 680px;
       </div>
     
       <div class="item">
-        <img src="Images\vase2.jpg" alt="Cane Vase" width="800" height="100">
+        <img src="<c:url value="resources\Images\vase2.jpg"/>" alt="Cane Vase" width="800" height="100">
         <div class="carousel-caption">
           <h3>Cane Vase</h3>
           <p>Insert some immitations and voila!</p>
@@ -222,7 +225,7 @@ height: 680px;
       </div>
 
       <div class="item">
-        <img src="Images\jars1.jpeg" alt="Decorative Jars" width="800" height="100">
+        <img src="<c:url value="resources\Images\jars1.jpeg"/>" alt="Decorative Jars" width="800" height="100">
         <div class="carousel-caption">
           <h3>Decorative Jars</h3>
           <p>Adorns your Tipois</p>
@@ -230,7 +233,7 @@ height: 680px;
       </div>
       
       <div class="item">
-        <img src="Images\can1.jpg" alt="Candle Holder" width="800" height="100">
+       <img src="<c:url value="resources\Images\can1.jpg"/>" alt="Candle Holder" width="800" height="100">
         <div class="carousel-caption">
           <h3>Candle Holders</h3>
           <p>Lightens up your walls and tables</p>
