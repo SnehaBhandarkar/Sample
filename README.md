@@ -1,2 +1,2 @@
 # onlinestore
-Alankaar is a online store which deals with Home Decor
+My sample repository consisting of sample files for learning concepts and implementing in project 
