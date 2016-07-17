@@ -1,0 +1,3 @@
+com\niit\cart\bean\UserDetails.class
+com\niit\cart\handler\RegistrationHandler.class
+com\niit\cart\controller\RegistrationController.class
